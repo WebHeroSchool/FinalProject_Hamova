@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'gilroyextrabold';
-    src: url('radomir_tinkov_-_gilroy-extrabold-webfont.woff') format('woff');
+    src: url('fonts/radomir_tinkov_-_gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'gilroylight';
-    src: url('radomir_tinkov_-_gilroy-light-webfont.woff') format('woff');
+    src: url('fonts/radomir_tinkov_-_gilroy-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: 'montserratblack';
-    src: url('montserrat-black-webfont.woff') format('woff');
+    src: url('fonts/montserrat-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: 'robotoblack';
-    src: url('roboto-black-webfont.woff') format('woff');
+    src: url('fonts/roboto-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
