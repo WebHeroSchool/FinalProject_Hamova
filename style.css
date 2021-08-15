@@ -8,26 +8,28 @@
 
 .header {
   background-color: #3030C1;
-  padding: 0 9%;
   margin-bottom: -1px;
+  background-image: url('img/Logo.png');
+  background-repeat: no-repeat;
+  background-position: 10% 88%;
+  padding-bottom: 8%;
+  background-size: 13%;
 }
 
-.header__image-Logo {
-  width: 15%;
-  padding: 5% 0;
-}
 
 .main-one {
   background-color: #3030C1;
-  padding: 33px 0px 18% 9%;
-  position: relative;
+  padding: 90px 0px 18% 9%;
+  background-image: url('img/JPG1.svg');
+  background-repeat: no-repeat;
+  background-position: 85% 27%;
 }
 
 .main-one__title {
   font: 800 45px/55px gilroyextrabold, arial, helvetica, sans-serif;
   color: #FFF;
   width: 48%;
-  margin-bottom: 32px;
+  margin-bottom: 34px;
 }
 
 .main-one__subtitle {
@@ -43,7 +45,7 @@
   font: 300 20px/23px gilroylight, arial, helvetica, sans-serif;
   color: #FFF;
   width: 36%;
-  margin: 0
+  margin: 0;
   margin-bottom: 47px;
 }
 
@@ -59,45 +61,35 @@
   cursor: pointer;
 }
 
-.main-one__image-main {
-  width: 39%;
-  position: absolute;
-  left: 52%;
-  top: 3%;
+.defis {
+   white-space: pre;
 }
 
-
-@media(max-width: 1000px) {
+@media(max-width: 1200px) {
 
   .header {
-    padding: 0;
-    height: 68px;
-  }
 
-  .header__image-Logo {
-    width: 93px;
-    height: 24px;
-    margin-top: 0px;
-    margin-left: 30px;
   }
 
   .main-one {
-    padding: 50px 0px 157px 32px;
+    padding: 2% 0px 21% 4%;
+    background-position: 99% 34%;
+    background-size: 38%;
   }
 
   .main-one__title {
-    font: 800 45px/55px gilroyextrabold, arial, helvetica, sans-serif;
+    font: 800 42px/55px gilroyextrabold, arial, helvetica, sans-serif;
     width: 60%;
     margin-bottom: 26px;
   }
 
   .main-one__subtitle{
-    font: 800 29px/36px gilroyextrabold, arial, helvetica, sans-serif;
+    font: 800 27px/34px gilroyextrabold, arial, helvetica, sans-serif;
     width: 49vw;
   }
 
   .main-one__description{
-    font: 300 20px/23px gilroylight, arial, helvetica, sans-serif;
+    font: 300 18px/21px gilroylight, arial, helvetica, sans-serif;
     width: 47vw;
     margin-bottom: 19px;
     margin-top: 0;
@@ -106,39 +98,61 @@
   .main-one__button-more{
 
   }
-
-  .main-one__image-main{
-    width: 36%;
-    top: 15%;
-  }
 }
 
-@media(max-width: 500px) {
-  .header {
-    height: 75px;
-  }
+@media(max-width: 1000px) {
 
-  .header__image-Logo {
-    margin-top: 23px;
+  .header {
+
   }
 
   .main-one {
-    padding: 1px 0px 288px 50px;
+    background-size: 40%;
   }
 
   .main-one__title {
-    font: 800 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 79%;
+    font: 800 37px/47px gilroyextrabold, arial, helvetica, sans-serif;
+    width: 53%;
   }
 
   .main-one__subtitle{
-    font: 800 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
-    width: 75vw;
+    font: 800 26px/30px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
   .main-one__description{
-    font: 300 15px/17px gilroylight, arial, helvetica, sans-serif;
-    width: 76vw;
+    font: 300 17px/23px gilroylight, arial, helvetica, sans-serif;
+    width: 42vw;
+  }
+
+  .main-one__button-more{
+
+  }
+}
+
+@media(max-width: 768px) {
+.header {
+
+}
+
+  .main-one {
+    padding: 1px 0px 42% 21%;
+    background-position: 43% 87%;
+    background-size: 40%;
+  }
+
+  .main-one__title {
+    font: 800 30px/31px gilroyextrabold, arial, helvetica, sans-serif;
+    width: 68%;
+  }
+
+  .main-one__subtitle{
+    font: 800 25px/23px gilroyextrabold, arial, helvetica, sans-serif;
+    width: 51vw;
+  }
+
+  .main-one__description{
+    font: 300 16px/17px gilroylight, arial, helvetica, sans-serif;
+    width: 58vw;
     margin-bottom: 0;
   }
 
@@ -153,41 +167,133 @@
   }
 }
 
+@media(max-width: 520px) {
+  .header {
+    background-size: 20%;
+    padding-bottom: 13%;
+  }
+
+    .main-one {
+      padding: 1px 0px 55% 10%;
+      background-position: 43% 96%;
+      background-size: 58%;
+    }
+
+    .main-one__title {
+      font: 800 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
+      width: 69%;
+    }
+
+    .main-one__subtitle{
+      font: 800 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+      width: 77vw;
+    }
+
+    .main-one__description{
+      font: 300 15px/17px gilroylight, arial, helvetica, sans-serif;
+      width: 74vw;
+    }
+
+    .main-one__button-more{
+      display:none;
+    }
+}
+
 @media(max-width:320px) {
 
   .header {
-    height: 68px;
-  }
-
-  .header__image-Logo {
-
+  padding-bottom: 21%;
+  background-size: 29%;
+  background-position: 13% 89%;
   }
 
   .main-one {
-    padding: 1px 0px 290px 29px;
+    padding: 1px 0px 91% 9%;
+    background-position: 49% 84%;
+    background-size: 81%;
   }
 
   .main-one__title {
-
+  font: 800 25px/31px gilroyextrabold, arial, helvetica, sans-serif;
   }
 
-  .main-one__subtitle{
-
+  .main-one__subtitle {
+  font: 800 20px/25px gilroyextrabold, arial, helvetica, sans-serif;
+  width: 81%;
+  letter-spacing: 0;
+  margin-bottom:0;
   }
 
   .main-one__description{
-
+  width: 84%;
   }
 
   .main-one__button-more{
 
   }
 
-  .main-one__image-main{
-    width: 81vw;
-    height: 67vw;
-    left: 9%;
+  .defis {
+     white-space: pre;
   }
+}
+
+@media(max-width: 280px) {
+
+  .header {
+
+  }
+
+  .main-one {
+    font: 800 17px/23px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main-one__title {
+  font: 800 17px/23px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main-one__subtitle {
+  font: 800 16px/22px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main-one__description{
+    font: 300 12px/15px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .main-one__button-more{
+
+  }
+
+  .defis {
+     white-space: pre;
+  }
+}
+
+@media(max-width: 200px) {
+  .header {
+
+  }
+
+  .main-one {
+
+  }
+
+  .main-one__title {
+  font: 800 11px/16px gilroyextrabold, arial, helvetica, sans-serif;
+  margin-bottom: 14%;
+  }
+
+  .main-one__subtitle {
+  font: 800 9px/14px gilroyextrabold, arial, helvetica, sans-serif;
+  }
+
+  .main-one__description{
+    font: 300 7px/12px gilroylight, arial, helvetica, sans-serif;
+  }
+
+  .main-one__button-more{
+
+  }
+
   .defis {
      white-space: pre;
   }
